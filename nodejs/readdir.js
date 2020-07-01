@@ -1,6 +1,6 @@
-var textFolder = "data";
-var fs = require("fs");
+var testFolder = './data';
+var fs = require('fs');
 
-fs.readdir(textFolder, function (err, filelist) {
+fs.readdir(testFolder, function(error, filelist){
   console.log(filelist);
-});
+})

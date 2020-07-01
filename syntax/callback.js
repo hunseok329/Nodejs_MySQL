@@ -1,13 +1,14 @@
 /*
-function a() {
-  console.log("A");
+function a(){
+  console.log('A');
 }
 */
-var a = function () {
-  console.log("A");
-};
+var a = function(){
+  console.log('A');
+}
 
-function slowfunc(callback) {
+
+function slowfunc(callback){
   callback();
 }
 
